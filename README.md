@@ -87,7 +87,7 @@ All values can be changed **without recompiling** — just edit, save, restart t
 
 ```c
 static const SrvGroup SRV_GROUPS[] = {
-    { "1", "172.65.227.28", "172.65.227.28", 8625, 8626, 440 },
+    { "1", "111.65.111.28", "111.65.111.28", 8625, 8626, 440 },
     { "2", "192.168.1.100", "192.168.1.100", 8625, 8626, 440 },
 };
 ```
