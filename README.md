@@ -1,4 +1,4 @@
-# GunBound Private Server — Plugin.dll v9
+# GunBound Private Server — Plugin.dll
 
 A DLL plugin for the GunBound client that acts as a bridge to a private server. It is injected into the game process at startup and automatically redirects the connection, patches memory, and runs anti-cheat.
 
@@ -29,11 +29,6 @@ A DLL plugin for the GunBound client that acts as a bridge to a private server. 
 - Whitelisted PCs: detections are still logged but the game is not terminated (observation/admin mode)
 - Key is stable — does not change on restart, only changes if the client replaces their NIC
 
-### GunProtect Proxy (dllmain_proxy.cpp)
-- Wrapper/spy for `GunProtect.dll` (Zed anti-cheat)
-- Logs all registry requests and export calls to `gunprotect_spy.txt`
-- Useful for analysis and reverse engineering of GunProtect
-
 ---
 
 ## File Structure
@@ -41,7 +36,6 @@ A DLL plugin for the GunBound client that acts as a bridge to a private server. 
 ```
 Plugin.dll            # DLL binary injected into the game
 dllmain.cpp           # Main source (hook, anti-cheat, patcher)
-dllmain_proxy.cpp     # GunProtect spy/wrapper (optional)
 patches.h             # All patch & server group config (EDIT HERE)
 config.ini            # Active configuration (no recompile needed)
 build.py              # Build script for Plugin.dll
