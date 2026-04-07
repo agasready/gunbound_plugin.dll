@@ -1,6 +1,7 @@
 # GunBound Private Server — Plugin.dll
 
-A DLL plugin for the GunBound client that acts as a bridge to a private server. It is injected into the game process at startup and automatically redirects the connection, patches memory, and runs anti-cheat.
+A DLL plugin for the GunBound client that acts as a bridge to a private server. It loads automatically when the game starts (via PE import patching) and redirects the connection, patches memory, and runs anti-cheat.
+
 
 ---
 
