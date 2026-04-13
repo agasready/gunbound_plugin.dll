@@ -158,10 +158,10 @@ Location: `C:\Program Files (x86)\GunBoundWC\game\plugin_debug.txt`
 === DllMain PROCESS_ATTACH ===
 Hook: RegQueryValueExA installed!
 Hardware key: D9BDA52...
-HWID: CPU=BFEBFBFF000906A3 | MAC=AA:BB:CC:DD:EE:FF
+HWID: CPU=B44BFBF7800958A3 | MAC=AA:00:CC:77:EE:FF
 PC ini ada di WHITELIST!
 Mode: WHITELIST
-Server group: 1 | IP=172.65.227.28:8625 | BuddyIP=172.65.227.28:8626 | Version=440
+Server group: 1 | IP=176.65.227.28:8625 | BuddyIP=176.65.227.28:8626 | Version=440
 Config: ProductVersion = 1 (8452176) -> patched @ 0x004F277F
 Config: LANGUAGE = 1
 Patch group aktif: 1 (1 patches)
